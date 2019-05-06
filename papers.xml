@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<conference>
+<papers>
+<paper id="1" studentPaper="true">
+<title> XML Schemas </title>
+<wordCount> 1200 </wordCount>
+</paper>
+<paper id="2"  studentPaper="false">
+<title> XML and OWL </title>
+<wordCount> 2800 </wordCount>
+</paper>
+<paper id="3" studentPaper="true">
+<title> OWL and RDF </title>
+<wordCount> 12000 </wordCount>
+</paper>
+</papers>
+<researchers>
+<researcher id="a" isStudent="false" manuscript="1" referee="1">
+<name>Smith </name>
+</researcher>
+<researcher id="b" isStudent="true" manuscript="1" referee="2">
+<name>Douglas </name>
+</researcher>
+<researcher id="c" isStudent="false" manuscript="2" referee="3">
+<name>King </name>
+</researcher>
+<researcher id="d" isStudent="true" manuscript="2" referee="1">
+<name>Ben</name>
+</researcher>
+<researcher id="e" isStudent="false" manuscript="3" referee="3">
+<name>William</name>
+</researcher>
+</researchers>
+</conference>
